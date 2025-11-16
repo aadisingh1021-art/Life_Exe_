@@ -8,11 +8,9 @@ import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Objectives from "./pages/Objectives";
 import Explorer from "./pages/Explorer";
 import Articles from "./pages/Articles";
 import ArticleDetail from "./pages/ArticleDetail";
-import Outcomes from "./pages/Outcomes";
 import Resources from "./pages/Resources";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -31,11 +29,9 @@ const App = () => (
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/objectives" element={<Objectives />} />
                 <Route path="/explorer" element={<Explorer />} />
                 <Route path="/articles" element={<Articles />} />
                 <Route path="/articles/:id" element={<ArticleDetail />} />
-                <Route path="/outcomes" element={<Outcomes />} />
                 <Route path="/resources" element={<Resources />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
