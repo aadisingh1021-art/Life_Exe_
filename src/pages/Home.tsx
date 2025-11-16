@@ -63,7 +63,7 @@ export default function Home() {
               </Link>
               <Link to="/about">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-                  Read the Synopsis
+                  Learn More
                   <BookOpen className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
@@ -106,12 +106,8 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-serif font-bold text-navy-primary dark:text-gold-accent mb-4">
-              A Dynamic Platform
+              Explore Our Platform
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Exploring how ancient wisdom and modern AI converge to help individuals and society overcome fear, 
-              reconnect disciplines, and prepare for a better future.
-            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -126,13 +122,13 @@ export default function Home() {
                   <Target className="h-12 w-12 text-gold-accent mb-4" />
                   <CardTitle>Self-Mastery</CardTitle>
                   <CardDescription>
-                    Pursue knowledge and overcome fear through philosophical wisdom in the age of AI
+                    Pursue knowledge and philosophical wisdom in the age of AI
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <Link to="/objectives">
+                  <Link to="/about">
                     <Button variant="ghost" className="w-full">
-                      View Objectives <ArrowRight className="ml-2 h-4 w-4" />
+                      Learn More <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </Link>
                 </CardContent>
