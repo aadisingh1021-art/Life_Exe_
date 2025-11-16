@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Explorer from "./pages/Explorer";
 import Articles from "./pages/Articles";
 import ArticleDetail from "./pages/ArticleDetail";
+import Community from "./pages/Community";
 import Resources from "./pages/Resources";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -32,6 +33,7 @@ const App = () => (
                 <Route path="/explorer" element={<Explorer />} />
                 <Route path="/articles" element={<Articles />} />
                 <Route path="/articles/:id" element={<ArticleDetail />} />
+                <Route path="/community" element={<Community />} />
                 <Route path="/resources" element={<Resources />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
